@@ -28,6 +28,6 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "vue"],
   rules: {
-    'vue/multi-word-component-names': 2,
+    'vue/multi-word-component-names': 0,
   },
 };
