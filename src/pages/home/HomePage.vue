@@ -1,13 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import { TaskList } from '@/entities/task'
+</script>
 
-<template lang="html">
+<template>
   <v-container>
     <v-row>
       <v-col cols="12">
-        <div>Домашняя страница</div>
+        <div class="task-list-wrapper">
+          <TaskList />
+        </div>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="sass" scoped>
+  .task-list-wrapper
+    display: flex
+    justify-content: center
+</style>
