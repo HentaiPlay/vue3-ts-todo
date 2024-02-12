@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { router, vuetify } from './providers'
+import { router, store, vuetify } from './providers'
 
-export const app = createApp(App).use(router).use(vuetify)
+export const app = createApp(App).use(router).use(store).use(vuetify)
