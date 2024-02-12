@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+
+  frontend:
+    build:
+      context: .
+    image: vue3-ts-todo
+    container_name: vue3-ts-todo
+    ports:
+      - ${APP_PORT}:80
