@@ -1,8 +1,12 @@
 {
   "name": "vue3-ts-todo",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "This is my task on interview =)",
+  "author": "https://github.com/HentaiPlay",
+  "homepage": "https://github.com/HentaiPlay/vue3-ts-todo",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
